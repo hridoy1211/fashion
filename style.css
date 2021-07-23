@@ -1,0 +1,79 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+
+/* Nav Bg-banner */
+.banner-1{
+    position: relative;
+    
+}
+.banner-details{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.banner-details .link{
+    border: 0;
+    padding: 5px 40px;
+    background-color: black;
+    margin-right: 70px;
+    color: white;
+}
+
+.banner-2{
+    position: relative;
+}
+.banner-details-2{
+    position: absolute;
+    top:50%;
+    left: 10%;
+}
+
+.banner-details-2 .link-2{
+    border: 0;
+    padding: 5px 40px;
+    background-color: black;
+    color: white;
+}
+
+.branding{
+    background-color: #F2F8FC
+    ;
+}
+
+hr{
+    width: 40%;
+    border: 1px solid black;
+}
+
+.icon .social-icon{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px ;
+    font-size: 20px;
+}
+
+/* Footer section */
+footer{
+    background-color: #E7F5F8;
+    
+}
+footer .copyright{
+    padding: 20px;
+    text-align: center;
+}
